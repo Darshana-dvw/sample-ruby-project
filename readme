@@ -1,0 +1,62 @@
+Steps to Run:
+
+Clone the repository
+
+bashgit clone https://github.com/sirmike/sample-ruby-project.git
+cd sample-ruby-project
+
+Install Bundler (if you don't have it)
+
+bashgem install bundler
+
+Install dependencies
+
+bashbundle install
+
+Run the main program
+
+bashruby main.rb
+
+Run the tests (optional)
+
+bashrspec
+# or
+bundle exec rspec
+Requirements:
+
+Ruby installed on your system
+That's it! No database needed
+
+The main.rb file is the entry point of the application. The lib/ folder contains the actual code (Foo and Bar classes), and spec/ contains the tests using RSpec.RetryDhow to run on localThat's exactly what I showed you - those steps ARE for running it locally on your computer. Let me break it down more clearly:
+How to Run on Your Local Machine:
+Prerequisites:
+
+Install Ruby on your computer first
+
+Windows: Download from https://rubyinstaller.org/
+Mac: Ruby comes pre-installed, or use brew install ruby
+Linux: sudo apt-get install ruby-full (Ubuntu/Debian)
+
+
+Verify Ruby is installed
+
+bashruby --version
+Run the Project Locally:
+
+Download the project to your computer
+
+bashgit clone https://github.com/sirmike/sample-ruby-project.git
+cd sample-ruby-project
+
+Install Bundler
+
+bashgem install bundler
+
+Install project dependencies
+
+bashbundle install
+
+Run the application
+
+bashruby main.rb
+That's it! The application will run on your local machine. The output will appear in your terminal/command prompt.
